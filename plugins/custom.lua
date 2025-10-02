@@ -17,4 +17,8 @@ return {
       require("claude-code").setup()
     end,
   },
+  {
+    "pradhyu/gitlens.nvim",
+    dependencies = { "nvim-lua/plenary.nvim" },
+  },
 }
